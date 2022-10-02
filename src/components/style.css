@@ -1,0 +1,36 @@
+.item-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.item-container i {
+  font-size: 4rem;
+  margin-right: 1rem;
+}
+@media screen and (max-width: 900px) {
+  .item-container {
+    justify-content: flex-start;
+  }
+  .item-container i {
+    font-size: 2rem;
+  }
+  .hero-button {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+.hero-button {
+  padding: 1rem 1.5rem;
+  background-color: rgb(221, 76, 117);
+  border: none;
+  border-radius: 5px;
+  font-size: larger;
+  cursor: pointer;
+  color: aliceblue;
+  border: 1px solid aliceblue;
+  margin: 1rem auto;
+}

@@ -1,0 +1,40 @@
+.cake {
+  margin: 5rem 10rem;
+  border-radius: 5px;
+  color: rgb(221, 76, 117);
+  border: 1px solid rgb(221, 76, 117);
+}
+
+.cake h1 {
+  margin: 3rem auto;
+}
+
+.buy-cake-div {
+  background-color: antiquewhite;
+  padding: 1.5rem;
+}
+
+.cake button {
+  padding: 1rem 1.5rem;
+  background-color: rgb(221, 76, 117);
+  border: none;
+  border-radius: 5px;
+  font-size: larger;
+  cursor: pointer;
+  color: aliceblue;
+}
+
+@media screen and (max-width: 900px) {
+  .cake {
+    margin: 5rem 4rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .cake {
+    margin: 3rem 2rem;
+  }
+  .cake h1 {
+    font-size: 26px;
+  }
+}
